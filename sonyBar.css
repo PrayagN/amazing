@@ -1,0 +1,617 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.title{
+    width: 7px;
+    height: 7px;
+
+}
+
+
+.sony-bar{
+    height:36px;
+    width:100%;
+    background-color: black;
+}
+body{
+    margin: 0;
+    
+}
+.logo{
+    width: 80px;
+    align-content: center;
+    align-items: right;
+    margin-left: 1438px;
+    margin-top: 15px;
+}
+.header{
+    width: 100%;
+    height: 40px;
+    background-color:white;
+    
+    
+}
+.playstation{
+    width: 30px;
+    height: 30px;
+    margin-left: 27px;
+    float: left;
+}
+.game{
+    border: 0;
+    margin-top: 10px;
+    color: grey;
+    padding-left: 10px;
+    cursor: pointer;
+    float: left;
+    /* font-family: 'Arial, Helvetica, sans-serif'; */
+    font-family: 'Hind', sans-serif;
+    ;
+    /* font-weight: 600; */
+ }
+.sign{
+    margin-top: 10px;
+    margin-left: 860px;
+    border-radius: 13px;
+    font-size: 1rem;
+    width: 80px;
+    height: 23px;
+    color: white;
+    font-family: inherit;
+    font-weight: 500;
+    font-family: sans-serif;
+    border: 0;
+    background-color: #0080ff;
+    cursor: pointer;
+    
+
+}
+.header1{
+    /* margin-top: 10px; */
+    background-color: white;
+    /* position: fixed; */
+    width: 100%;
+}
+.img{
+    width: 180px;
+    margin-left: 20px;
+    float: left;
+    background-color: white;
+}
+.first{
+    margin-left: 267px;
+    float: left;
+    margin-top: -10px;
+}
+.header1d{
+   
+background-color: white;
+    margin-left: 228px;
+    border: none;
+    font-family: sans-serif;
+    /* font-family: sa; */
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 15px;
+    width:162px;
+    background: transparent;
+    height: 35px;
+}
+.header2{
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-family: sa; */
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-size: 17px;
+    width:174px;
+    background: transparent;
+    height: 35px;
+    margin-left: -35px;
+    
+
+}
+.header1dd{
+    border: none;
+    font-family: sans-serif;
+    /* font-family: sa; */
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 15px;
+    width:162px;
+    background: transparent;
+    margin-left: -45px;
+    height: 35px;
+}
+.body{
+    width: 100%;
+    height: 800px;
+    background-image:url(img/1backgroundimagedited.png);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    margin-top: 10px;
+}
+.bg1{
+    width: 100%;
+    height: 800px;
+    float: left;
+    /* background-image: url(Screenshot\ 2022-12-08\ 170724.png); */
+}
+.c1{
+    
+    padding-top: 72px;
+    padding-left: 452px;
+    width: 610px;
+}
+.video{
+    padding-left: 100px;
+    padding-top: 120px;
+    float: left;
+
+
+    
+
+}
+.name{
+    float: left;
+    width: 635px;
+    padding-top: 132px;
+    padding-left: 38px;
+}
+.p{
+    width: 606px;
+    font-family: sst, Arial, sans-serif;
+    color: white;
+    font-size: 16px;
+    padding-top: 12px;
+    float: left;
+    padding-left: 45px;
+    word-spacing: 1px;
+
+    
+}
+.b1{
+    background-color: var(--background-color);
+   --background-color: #ffff;
+   --border-size: 2px;
+    color: #222;
+    margin-left: 978px;
+    margin-top: -249px;
+    position: relative;
+    float: left;
+    font-weight: 600;
+    height: 40px;
+    font-size: unset;
+    border-radius: 20px;
+    border: none;
+    width: 120px;
+    cursor: pointer;
+    outline: none;
+}
+.b1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    border: var(--border-size) solid var(--background-color);
+    transition: top, left, right, bottom, 100ms ease-in-out;
+    border-radius: 20px ;
+
+}
+.b1:hover::before{
+    border-radius: 20px ;
+    top: calc(var(--border-size)* -2);
+    left: calc(var(--border-size)* -2);
+    right: calc(var(--border-size)* -2);
+    bottom: calc(var(--border-size)* -2);
+}
+
+.b2{
+    background-color:#d63d00;
+    margin-left: 1110px;
+    margin-top: -249px;
+    color: white;
+    border: 0;
+    float: left;
+    font-weight: 600;
+    height: 40px;
+    font-size: unset;
+    border-radius: 20px;
+    width: 99px;
+    cursor: pointer;
+}
+.b2:hover{
+    /* color: aquamarine; */
+}
+.game:hover{
+    color: #0080ff;
+}
+.v:hover{
+    box-shadow: 0 0 10px 10px  rgba(0,0,0,0.1) ;
+    transform: scale(1.02);
+    float: left;
+    /* transition: 100ms; */
+    
+}
+.intro{
+    float: left;
+    margin-top: -519px;
+    margin-left: 895px;
+    width: 356px;
+}
+.p2{
+    margin-top: -460px;
+    float: left;
+    font-size: 16px;
+    color: white;
+    line-height: 1.5;
+    padding-right: 89px;
+    /* font-family: system-ui; */
+    font-family: BerserkerReg,var(--dk-font)!important;
+    padding-left: 902px;
+}
+.img1{
+    width: 698px;
+    float: left;
+    margin-top: -1467px;
+    margin-left: 410px;
+}
+.box{
+    float:left;
+    margin-top: -1385px;
+    margin-left: 85px;
+}
+.box1{
+    margin: 16px;
+    border-color: #d63d00;
+    float: left;
+    width: 306px;
+    border-radius: 16px;
+    /* margin-top: -1368px; */
+    /* margin-left: 97px; */
+    height: 306px;
+    background-color: green;
+    /* border: 1px solid #0080ff; */
+}
+.back-img1 {
+    width: 306px;
+    height: 306px;
+    border-radius: 16px;
+    box-shadow: 5px black;
+    /* background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/god-of-war-hub-thumbnail-ragnarok-en-09sept21?$1600px$); */
+}
+.back-img1:hover{
+    box-shadow: 0 0 10px 10px  rgba(0,0,0,0.1) ; 
+    transform: scale(1.01);
+    cursor: pointer;
+}
+.text-block{
+    width: 306px;
+    height: 127px;
+    background-color: transparent;
+    margin-top: 28px;
+}
+.h4{
+    font-size: calc(1rem*1.5625);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.pp1{
+    margin-top: -17px;
+    line-height: 24px;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.b3{
+    background-color:#d63d00;
+    /* margin-left: 1116px; */
+    margin-top: 10px;
+    color: white;
+    border: 0;
+    /* float: left; */
+    font-weight: 600;
+    height: 40px;
+    font-size: unset;
+    border-radius: 20px;
+    width: 99px;
+    cursor: pointer;
+}
+.f1{
+    width: 138px;
+    height: 40px;
+    background-color: rgb(0 112 204);
+    border: 0;
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+.box2{
+    float: left;
+    margin-top: -776px;
+    margin-left: 85px;
+
+}
+.section{
+    float: left;
+    width: 1519px;
+    background-size: cover;
+    margin-top: -148px;
+
+    height: 523px;
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/playstation-games-on-pc-hero-page-banner-desktop-02-en-06oct22?$2400px$);
+}
+.video2{
+    width: 644px;
+    height: 362px;
+    float: left;
+    margin-top: -124px;
+    margin-left: 775px;
+}
+.pc{
+    width: 644px;
+    height: 178px;
+    background-color: transparent;
+    margin-left: 100px;
+}
+.ul{
+    list-style-type: square;
+    float: left;
+    margin-top: -205px;
+    margin-left: -25px;
+    line-height: 30px;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: white;
+}
+.b4{
+    background-color: white;
+    color: black;
+    border: 0;
+    margin-left: 0px;
+    float: left;
+    margin-top: -55px;
+    font-weight: 600;
+    height: 40px;
+    font-size: unset;
+    border-radius: 20px;
+    width: 120px;
+    cursor: pointer;
+}
+.ps3{
+    margin-top: -763px;
+    float: left;
+    margin-left: 327px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    opacity: 0.7;
+    text-align: center;
+    line-height: 29px;
+}
+.bs3{
+    float: left;
+    width: 174px;
+    height: 45px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-family: system-ui;
+    margin-top: -675px;
+    margin-left: 587px;
+    font-weight: 600;
+    border-radius: 25px;
+    padding-top: 0px;
+    
+    cursor: pointer;
+    border: -1px;
+}
+/* .bs3:hover{ */
+    /* transform: scale(1.03); */
+/* } */
+.bs4{
+    float: left;
+    width: 150px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: system-ui;
+    margin-top: -675px;
+    margin-left: 765px;
+    font-weight: 600;
+    border-radius: 25px;
+    padding-top: 0px;
+    cursor: pointer;
+}
+.bs4:hover{
+    color: #0080ff;
+}
+.bs1{
+    float: left;
+    width: 328px;
+    height: 45px;
+    /* background: transparent; */
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: system-ui;
+    margin-top: -675px;
+    margin-left: 586px;
+    font-weight: 600;
+    border-radius: 25px;
+    padding-top: 0px;
+    
+}
+.bs1:hover{
+    /* box-shadow: 0 0 10px 10px  rgba(0,0,0,0.1) ;  */
+    transform: scale(1.03);
+}
+/* .all-button:hover{
+    /* transform: scale(1.03); */
+    /* box-shadow: 0 0 10px 10px  rgba(0,0,0,0.1) ;  */
+
+/* } * */
+.cards{
+    margin-top:-615px;
+    margin-left: 83px;
+    float: left;
+    width: 1352px;
+    height: 524px;
+    background-color: transparent;
+}
+.card1{
+    margin: 16px;
+    border-color: #d63d00;
+    float: left;
+    width: 306px;
+    border-radius: 16px;
+    /* margin-top: -1368px; */
+    /* margin-left: 97px; */
+    height: 230px;
+    background-color: transparent;
+}
+.card1:hover{
+    transform: scale(1.03);
+}
+.img2{
+    width: 306px;
+    border-radius: 16px;
+    height: 172px;
+    margin-left: 30px;
+}
+.back-img2{
+    width: 306px;
+    height: 172px;
+    border-radius: 16px;
+    box-shadow: 5px black;
+
+}
+.h5{
+    font-size: 14px;
+    font-family: system-ui;
+    float: left;
+    font-weight: 400;
+    margin-top: -17px;
+    color: #b2b2b2;
+}
+.img5{
+    width: 891px;
+    float: left;
+    margin-top: -555px;
+    margin-left: 96px;
+}
+.connect{
+
+}
+.p3{
+    float: left;
+    font-size: 17px;
+    margin-top: -372px;
+    font-weight: 400;
+    /* opacity: 0.4; */
+    line-height: 26px;
+    margin-left: 989px;
+    font-family: system-ui;
+}
+.f2{
+    width: 138px;
+    height: 40px;
+    background-color: rgb(0 112 204);
+    border: 0;
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-left: 989px;
+    margin-top: -260px;
+    float: left;
+    cursor: pointer;
+
+}
+.icons{
+    float: left;
+    width: 500px;
+    margin-left: 992px;
+    margin-top: -194px;
+    height: 100px;
+    background-color: transparent;
+}
+.img6{
+    height: 60px; width: 60px;
+    cursor: pointer;
+    float: left;
+}
+.img6:hover{
+    transform: scale(1.03);
+}
+.footer{
+    float: left;
+    width: 100%;
+    height: 520px;
+    background-color: #00439c;
+    margin-top: -7px;
+}
+.para1{
+    float: left;
+    /* background-color: #d63d00; */
+    width: 193px;
+    height: 216px;
+    margin-left: 498px;
+    font-family: sans-serif;
+    margin-top: -104px;
+    color: white;
+    line-height: 30px;
+    word-break: break-word;
+    font-size: 14px;
+    
+
+}
+.para2{
+    float: left;
+    /* background-color: #b2b2b2; */
+    width: 214px;
+    height: 195px;
+    margin-left: 32px;
+    margin-top: -104px;
+    color: white;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: sans-serif;
+
+}
+.para3{
+    float: left;
+    width: 193px;
+    height: 198px;
+    margin-top: -104px;
+    font-size: 14px;
+    color: white;
+    line-height: 30px;
+    font-family: sans-serif;
+
+
+}
+.footer2{
+    width: 644px;
+    height: 128px;
+}
+.p4{
+    margin-left: 100px;
+    width: 664px;
+    color: white;
+    line-height: 23px;
+    font-size: 14px;
+    font-family: system-ui;
+    margin-top: -34px;
+}
